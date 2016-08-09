@@ -216,7 +216,7 @@ configure_file(
 # install pkg-config file
 install(
     FILES "${CMAKE_CURRENT_BINARY_DIR}/glm.pc"
-    DESTINATION "${CMAKE_INSTALL_LIBDIR}/pkgconfig"
+    DESTINATION "lib/pkgconfig"
 )
 
 export(PACKAGE glm)
