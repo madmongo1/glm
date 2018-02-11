@@ -49,8 +49,10 @@ Makefile
 
 # local build(s)
 build*
-#local builds in clion
-cmake-build-*/
+
+/.vs
+/CMakeSettings.json
 
 #Clion pollution
 .idea/*
+cmake-build-*/
