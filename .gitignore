@@ -32,8 +32,6 @@ CMakeCache.txt
 CMakeFiles
 cmake_install.cmake
 install_manifest.txt
-*.cmake
-# ^ May need to add future .cmake files as exceptions
 
 # Test logs
 Testing/*
@@ -52,3 +50,9 @@ Makefile
 # local build(s)
 build*
 
+/.vs
+/CMakeSettings.json
+
+#Clion pollution
+.idea/*
+cmake-build-*/
